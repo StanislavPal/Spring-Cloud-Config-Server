@@ -1,0 +1,7 @@
+spring:
+#  application:
+  cloud:
+    config:
+      name: discovery-service
+      uri: http://localhost:8081
+      fail-fast: true
